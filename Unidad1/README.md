@@ -12,6 +12,7 @@ Esta unidad reúne fundamentos de JavaScript, objetos predefinidos, objetos lite
 
 - [Apuntes de JavaScript y POO](APUNTES_JAVASCRIPT_U1.md)
 - [Repaso práctico del examen](REPASO_EXAMEN_U1.md)
+- [Esquema de repaso intensivo para el examen](ESQUEMA_REPASO_INTENSIVO_EXAMEN.md)
 - [Cheatsheet de JavaScript y objetos](CheatSheets/cheatsheet-examen-javascript-objetos.md)
 - [Guía de la práctica obligatoria](CheatSheets/guia-practica-obligatoria-agencias-viajes.md)
 - [Índice completo de recursos](INDICE_RECURSOS.md)
