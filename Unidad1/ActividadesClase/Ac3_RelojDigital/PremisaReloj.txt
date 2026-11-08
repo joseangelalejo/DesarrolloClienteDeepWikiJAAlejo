@@ -1,0 +1,15 @@
+Haz una página simple que muestre un reloj digital, no necesita
+estilos ni funcionalidades adicionales.
+
+Usa setInterval para actualizar la hora cada segundo.
+Para mostrar la hora usa el objeto Date de JavaScript y sus métodos getHours(), getMinutes() y getSeconds().
+
+Una vez hecho, haz un cronómetro que muestre minutos, segundos y décimas.
+Tendrá dos botones. El de "Inicio", el de "Parar" y el de "Resetear".
+
+1. Pintar el cronómetro.
+2. Función que haga correr el cronometro.
+3. Funcione el botón de inicio.
+4. Función que elimine el intervalo (clearInterval)
+5. Asociar la función parar al botón.
+6. Resetear el cronómetro.

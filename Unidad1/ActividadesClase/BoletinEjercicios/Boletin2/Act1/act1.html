@@ -1,0 +1,58 @@
+<!-- Crear un programa que solicite al usuario nombre y apellidos y devuelva:
+    - El tamaño del nombre más los apellidos sin contar los espacios.
+    - La cadena completa en minúsculas y mayúsculas.
+    - La división del nombre, apellido1 y apellido2 en tres líneas distintas.
+    - Una propuesta de nombre usuario de la siguiente forma: 
+        inicial del nombre, 
+        primeras tres letras del apellido1 
+        y primeras tres letras del apellido2. 
+            Ejemplo: Juan Martín López  → jmarlop
+-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 1 - Nombre de usuario</title>
+</head>
+
+<body>
+    <main>
+        <h1>Datos personales y nombre de usuario</h1>
+
+        <p>
+            Introduce tu nombre y apellidos para obtener la información solicitada.
+        </p>
+
+        <form id="formulario-nombre">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div>
+                <label for="apellido1">Primer apellido:</label>
+                <input type="text" id="apellido1" name="apellido1" required>
+            </div>
+
+            <div>
+                <label for="apellido2">Segundo apellido:</label>
+                <input type="text" id="apellido2" name="apellido2" required>
+            </div>
+
+            <button type = "button" onclick="mostrarResultados()">Mostrar resultados</button>
+        </form>
+
+        <section aria-labelledby="resultados-titulo">
+            <h2 id="resultados-titulo">Resultados</h2>
+            <div id="resultados">
+                <!-- JavaScript mostrará aquí los resultados de la actividad. -->
+            </div>
+        </section>
+    </main>
+
+    <script src="./act1.js" defer></script>
+</body>
+
+</html>

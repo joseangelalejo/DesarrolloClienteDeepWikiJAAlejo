@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora 2</title>
+    <link rel="stylesheet" href="./calculadora2.css" />
+</head>
+
+<body>
+    <h1>Calculadora 2</h1>
+    <hr />
+    <form name="formularioCalculadora">
+        <input type="text" name="pantallaAuxiliar" value="0" style="text-align: right; font-size: 50%" readonly /><br />
+        <input type="text" name="pantallaCalculadora" value="0" style="text-align: right" />
+    </form>
+    <br />
+    <button onclick="agregarValor('1')">1</button>
+    <button onclick="agregarValor('2')">2</button>
+    <button onclick="agregarValor('3')">3</button><br />
+    <button onclick="agregarValor('4')">4</button>
+    <button onclick="agregarValor('5')">5</button>
+    <button onclick="agregarValor('6')">6</button><br />
+    <button onclick="agregarValor('7')">7</button>
+    <button onclick="agregarValor('8')">8</button>
+    <button onclick="agregarValor('9')">9</button><br />
+    <button onclick="agregarValor('+')">+</button>
+    <button onclick="agregarValor('0')">0</button>
+    <button onclick="calcular()">=</button><br />
+    <button onclick="agregarValor('-')">-</button>
+    <button onclick="agregarValor('*')">X</button><button onclick="agregarValor('/')">/</button>
+    <script src="./calculadora2.js"></script>
+</body>
+
+</html>

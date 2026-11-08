@@ -1,0 +1,48 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editores e IDEs
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Dependencias y salidas de Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+coverage/
+
+# Cachés y archivos temporales
+.cache/
+.temp/
+tmp/
+temp/
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+
+# Cachés de Python y herramientas auxiliares
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Archivos generados por documentación
+.markdownlint-cli2.mjs
+

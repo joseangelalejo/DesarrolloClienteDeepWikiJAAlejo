@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>38.Números primos</title>
+
+</head>
+
+<body>
+  <form name="frmDatos">
+    <label>Número a comprobar</label>
+    <input type="text" name="txtNumero" id="txtNumero" />
+    <br>
+    <input type="button" name="btnComprobar" id="btnComprobar" value="Comprobar" onclick="comprobar();" />
+  </form>
+
+  <p id="resultado"></p>
+
+  <script>
+    "use strict";
+    function comprobar() {
+      let iNumero = parseInt(frmDatos.txtNumero.value);
+
+      console.log("Numero leido: " + iNumero);
+
+      let bEsPrimo = true;
+      let i = 3;
+      let iLimiteMaximo = Math.floor(Math.sqrt(iNumero));
+
+      // ¿ Divisible por 2 ?
+      if (iNumero % 2 == 0 || iNumero <= 1) { // Divisible por 2
+        bEsPrimo = false;
+      }
+
+      while (bEsPrimo && i <= iLimiteMaximo) {
+        console.log("Iterando " + i);
+        if (iNumero % i == 0) { // Comprobamos divisibilidad
+          bEsPrimo = false;
+        }
+
+        console.log("Dividiendo por :" + i);
+        i = i + 2; // 3, 5, 7, 9, ....
+      }
+
+      let pResultado = document.getElementById("resultado");
+
+      if (bEsPrimo) {
+        pResultado.innerHTML = iNumero + " es primo";
+      } else {
+        pResultado.innerHTML = iNumero + " no es primo";
+      }
+    }
+  </script>
+
+</body>
+
+</html>

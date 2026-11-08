@@ -1,0 +1,11 @@
+En este ejemplo tenemos la calculadora con 
+el HTML y el CSS ya hechos.
+El CSS no se toca.
+Del HTML solo tendremos que tocar el nombre de algún boton/función concreta.
+Desarrollamos el JavaScript para que la calculadora funcione.
+
+En la parte de arriba hay dos pantallas.
+
+La pantalla de arriba muestra la operación que estamos 
+realizando y la pantalla de abajo muestra el resultado 
+de la operación.

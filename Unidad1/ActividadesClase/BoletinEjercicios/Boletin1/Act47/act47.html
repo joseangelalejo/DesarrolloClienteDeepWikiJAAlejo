@@ -1,0 +1,39 @@
+<!-- 
+Solicitar a través de un formulario dos horas de un día, 
+el sistema deberá mostrar en una capa de salida del 
+documento si la primera hora es anterior o posterior a la 
+segunda, además del tiempo transcurrido entre ambas en formato 
+de hh:mm. Ejemplo: el usuario introduce en la primera hora 18:40 
+y en la segunda 22:25 de la siguiente forma, h1=18 m1=40 h2=22 m2=25.
+La salida del sistema será “H1 es anterior a H2. Han pasado 3 horas y 45 minutos”.
+Si necesitara truncar un número puede usar la función Math.floor(num).
+-->
+<!-- Corrección -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 47</title>
+</head>
+
+<body>
+    <h2>Ejercicio 47</h2>
+    <form name="frmHoras">
+        <h3>Hora 1: (hh:mm)</h3>
+        <input type="number" name="h1" min="0" max="23" />
+        <label>:</label>
+        <input type="number" name="m1" min="0" max="59" />
+        <h3>Hora 2: (hh:mm)</h3>
+        <input type="number" name="h2" min="0" max="23" />
+        <label>:</label>
+        <input type="number" name="m2" min="0" max="59" />
+    </form>
+    <br /><br />
+    <button onclick="diferenciaHoras()">Diferencia horas</button><br /><br />
+    <div id="salida"></div>
+    <script src="./act47.js"></script>
+</body>
+
+</html>

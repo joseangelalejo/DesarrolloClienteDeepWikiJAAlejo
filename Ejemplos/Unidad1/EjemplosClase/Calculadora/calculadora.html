@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <h1>Calculadora</h1>
+
+    <form name="frmCalculadora">
+      <input type="text" name="pantalla" value="0" style="text-align: right" />
+    </form>
+    <hr />
+    <div id="botonera">
+      <button onclick="muestraDigito(1)">1</button>
+      <button onclick="muestraDigito(2)">2</button>
+      <button onclick="muestraDigito(3)">3</button><br />
+      <button onclick="muestraDigito(4)">4</button>
+      <button onclick="muestraDigito(5)">5</button>
+      <button onclick="muestraDigito(6)">6</button><br />
+      <button onclick="muestraDigito(7)">7</button>
+      <button onclick="muestraDigito(8)">8</button>
+      <button onclick="muestraDigito(9)">9</button><br />
+      <button onclick="muestraDigito(0)">0</button>
+      <button onclick="suma()">+</button>
+      <button onclick="igual()">=</button><br />
+    </div>
+    <script src="./calculadora.js"></script>
+  </body>
+</html>
